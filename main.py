@@ -3,7 +3,7 @@ import pymongo
 import time
 with st.spinner("Loading....."):
        time.sleep(5)
-conn=pymongo.MongoClient("mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.8.2")
+conn=pymongo.MongoClient("mongodb+srv://kunalg15_db_user:UchdhJoflEo7GMli@citcapp.mong26u.mongodb.net/?appName=CitcApp")#Set the connection with mongo database and our code
 mydb=conn["ojt"]
 my=mydb["user_info"]
 st.title("🐍All the basic python code")
