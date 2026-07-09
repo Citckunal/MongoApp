@@ -1,5 +1,4 @@
 import streamlit as st
-
 import pymongo
 conn=pymongo.MongoClient("mongodb+srv://kunalg15_db_user:UchdhJoflEo7GMli@citcapp.mong26u.mongodb.net/?appName=CitcApp")#Set the connection with mongo database and our code
 mydb=conn["ojt"]
